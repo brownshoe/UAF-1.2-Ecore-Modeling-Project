@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    name="UAF" nsURI="http://www.example.org/UAF" nsPrefix="UAF">
+  <eSubpackages name="Architecture Management">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Stakeholders: Enterprise Architects, people who want to discover the architecture, Technical Managers.&#xD;&#xA;Concerns: Captures meta-data relevant to the entire architecture&#xD;&#xA;Definition: Provide information pertinent to the entire architecture. Present supporting information rather than architectural models."/>
+    </eAnnotations>
+    <eSubpackages name="Motivation">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Contains the diagrams that document the Architecture Management Motivation View Specification."/>
+      </eAnnotations>
+      <eSubpackages name="Architecture Principles"/>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>
